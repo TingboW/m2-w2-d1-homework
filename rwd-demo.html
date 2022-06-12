@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My First Web Page</title>
 
 <link rel="stylesheet" href="demo.css">
+<style>
+  .cards {
+    display: flex;
+  }
+
+  .card {
+    flex: 50%;
+  }
+
+  @media (max-width: 600px) {
+    .cards {
+      flex-direction: column;
+      width: 50%;
+    }
+  }
+</style>
 
 </head> 	
 <body>

@@ -8,6 +8,7 @@ header {
     padding-left: 100px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
   }
   li {
     list-style-type: none;
